@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UI Components</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/yourkitid.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/embla-carousel@4.2.0/embla.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="bg-white text-gray-900 font-sans">
+    <section
+      class="bg-[url('/images/header1.jpg')] bg-cover bg-center w-full h-auto text-white p-10 md:p-20"
+    >
+      <div class="max-w-6xl mx-auto">
+        <h1 class="text-4xl md:text-5xl font-bold mb-6">Main header</h1>
+        <p class="text-lg md:text-xl mb-6 max-w-2xl">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis
+          asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora
+          aut inventore optio animi, tempore temporibus quo laudantium.
+        </p>
+        <button
+          class="bg-white text-blue-600 px-6 py-2 rounded font-semibold hover:bg-blue-100 transition"
+        >
+          Button
+        </button>
+      </div>
+    </section>
+
+    <section class="py-16 px-4 max-w-7xl mx-auto">
+      <h2 class="text-3xl font-bold mb-4">Contact</h2>
+      <p class="text-gray-600 mb-10 max-w-2xl">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis
+        asperiores porro quaerat doloribus, eveniet dolore.
+      </p>
+
+      <!-- Carousel for Mobile -->
+      <div class="block md:hidden overflow-hidden">
+        <div class="embla">
+          <div class="embla__container">
+            <div class="embla__slide p-4">
+              <div class="relative rounded-lg overflow-hidden shadow h-90">
+                <img
+                  src="images/IMG1.JPG"
+                  alt="Profile"
+                  class="w-full h-full object-cover"
+                />
+                <div class="absolute bottom-4 left-4 text-white">
+                  <h3 class="font-bold text-lg">Name here</h3>
+                  <p class="text-sm">Function here</p>
+                  <div class="flex gap-2 mt-2">
+                    <a
+                      href="#"
+                      class="bg-[#1b26af] p-2 flex items-center justify-center w-10 h-10"
+                      ><i class="fas fa-phone text-white fa-xl"></i
+                    ></a>
+                    <a
+                      href="#"
+                      class="bg-[#1b26af] p-2 flex items-center justify-center w-10 h-10"
+                      ><i class="fas fa-envelope text-white fa-xl"></i
+                    ></a>
+                    <a
+                      href="#"
+                      class="bg-[#1b26af] p-2 flex items-center justify-center w-10 h-10"
+                      ><i class="fab fa-linkedin-in text-white fa-xl"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="embla__slide p-4">
+              <div class="relative rounded-lg overflow-hidden shadow h-90">
+                <img
+                  src="images/IMG2.JPG"
+                  alt="Profile"
+                  class="w-full h-full object-cover"
+                />
+                <div class="absolute bottom-4 left-4 text-white">
+                  <h3 class="font-bold text-lg">Name here</h3>
+                  <p class="text-sm">Function here</p>
+                  <div class="flex gap-2 mt-2">
+                    <a
+                      href="#"
+                      class="bg-[#1b26af] p-2 flex items-center justify-center w-10 h-10"
+                      ><i class="fas fa-phone text-white fa-xl"></i
+                    ></a>
+                    <a
+                      href="#"
+                      class="bg-[#1b26af] p-2 flex items-center justify-center w-10 h-10"
+                      ><i class="fas fa-envelope text-white fa-xl"></i
+                    ></a>
+                    <a
+                      href="#"
+                      class="bg-[#1b26af] p-2 flex items-center justify-center w-10 h-10"
+                      ><i class="fab fa-linkedin-in text-white fa-xl"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="embla__slide p-4">
+              <div class="relative rounded-lg overflow-hidden shadow h-90">
+                <img
+                  src="images/IMG3.JPG"
+                  alt="Profile"
+                  class="w-full h-full object-cover"
+                />
+                <div class="absolute bottom-4 left-4 text-white">
+                  <h3 class="font-bold text-lg">Name here</h3>
+                  <p class="text-sm">Function here</p>
+                  <div class="flex gap-2 mt-2">
+                    <a
+                      href="#"
+                      class="bg-[#1b26af] p-2 flex items-center justify-center w-10 h-10"
+                      ><i class="fas fa-phone text-white fa-xl"></i
+                    ></a>
+                    <a
+                      href="#"
+                      class="bg-[#1b26af] p-2 flex items-center justify-center w-10 h-10"
+                      ><i class="fas fa-envelope text-white fa-xl"></i
+                    ></a>
+                    <a
+                      href="#"
+                      class="bg-[#1b26af] p-2 flex items-center justify-center w-10 h-10"
+                      ><i class="fab fa-linkedin-in text-white fa-xl"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="embla__slide p-4">
+              <div class="relative rounded-lg overflow-hidden shadow h-90">
+                <img
+                  src="images/IMG4.JPG"
+                  alt="Profile"
+                  class="w-full h-full object-cover"
+                />
+                <div class="absolute bottom-4 left-4 text-white">
+                  <h3 class="font-bold text-lg">Name here</h3>
+                  <p class="text-sm">Function here</p>
+                  <div class="flex gap-2 mt-2">
+                    <a
+                      href="#"
+                      class="bg-[#1b26af] p-2 flex items-center justify-center w-10 h-10"
+                      ><i class="fas fa-phone text-white fa-xl"></i
+                    ></a>
+                    <a
+                      href="#"
+                      class="bg-[#1b26af] p-2 flex items-center justify-center w-10 h-10"
+                      ><i class="fas fa-envelope text-white fa-xl"></i
+                    ></a>
+                    <a
+                      href="#"
+                      class="bg-[#1b26af] p-2 flex items-center justify-center w-10 h-10"
+                      ><i class="fab fa-linkedin-in text-white fa-xl"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="embla__slide p-4">
+              <div class="relative rounded-lg overflow-hidden shadow h-90">
+                <img
+                  src="images/IMG5.JPG"
+                  alt="Profile"
+                  class="w-full h-full object-cover"
+                />
+                <div class="absolute bottom-4 left-4 text-white">
+                  <h3 class="font-bold text-lg">Name here</h3>
+                  <p class="text-sm">Function here</p>
+                  <div class="flex gap-2 mt-2">
+                    <a
+                      href="#"
+                      class="bg-[#1b26af] p-2 flex items-center justify-center w-10 h-10"
+                      ><i class="fas fa-phone text-white fa-xl"></i
+                    ></a>
+                    <a
+                      href="#"
+                      class="bg-[#1b26af] p-2 flex items-center justify-center w-10 h-10"
+                      ><i class="fas fa-envelope text-white fa-xl"></i
+                    ></a>
+                    <a
+                      href="#"
+                      class="bg-[#1b26af] p-2 flex items-center justify-center w-10 h-10"
+                      ><i class="fab fa-linkedin-in text-white fa-xl"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="embla__slide p-4">
+              <div class="relative rounded-lg overflow-hidden shadow h-90">
+                <img
+                  src="images/IMG6.JPG"
+                  alt="Profile"
+                  class="w-full h-full object-cover"
+                />
+                <div class="absolute bottom-4 left-4 text-white">
+                  <h3 class="font-bold text-lg">Name here</h3>
+                  <p class="text-sm">Function here</p>
+                  <div class="flex gap-2 mt-2">
+                    <a
+                      href="#"
+                      class="bg-[#1b26af] p-2 flex items-center justify-center w-10 h-10"
+                      ><i class="fas fa-phone text-white fa-xl"></i
+                    ></a>
+                    <a
+                      href="#"
+                      class="bg-[#1b26af] p-2 flex items-center justify-center w-10 h-10"
+                      ><i class="fas fa-envelope text-white fa-xl"></i
+                    ></a>
+                    <a
+                      href="#"
+                      class="bg-[#1b26af] p-2 flex items-center justify-center w-10 h-10"
+                      ><i class="fab fa-linkedin-in text-white fa-xl"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="embla__slide p-4">
+              <div class="relative rounded-lg overflow-hidden shadow h-90">
+                <img
+                  src="images/IMG7.JPG"
+                  alt="Profile"
+                  class="w-full h-full object-cover"
+                />
+                <div class="absolute bottom-4 left-4 text-white">
+                  <h3 class="font-bold text-lg">Name here</h3>
+                  <p class="text-sm">Function here</p>
+                  <div class="flex gap-2 mt-2">
+                    <a
+                      href="#"
+                      class="bg-[#1b26af] p-2 flex items-center justify-center w-10 h-10"
+                      ><i class="fas fa-phone text-white fa-xl"></i
+                    ></a>
+                    <a
+                      href="#"
+                      class="bg-[#1b26af] p-2 flex items-center justify-center w-10 h-10"
+                      ><i class="fas fa-envelope text-white fa-xl"></i
+                    ></a>
+                    <a
+                      href="#"
+                      class="bg-[#1b26af] p-2 flex items-center justify-center w-10 h-10"
+                      ><i class="fab fa-linkedin-in text-white fa-xl"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="embla__slide p-4">
+              <div class="relative rounded-lg overflow-hidden shadow h-90">
+                <img
+                  src="images/IMG8.JPG"
+                  alt="Profile"
+                  class="w-full h-full object-cover"
+                />
+                <div class="absolute bottom-4 left-4 text-white">
+                  <h3 class="font-bold text-lg">Name here</h3>
+                  <p class="text-sm">Function here</p>
+                  <div class="flex gap-2 mt-2">
+                    <a
+                      href="#"
+                      class="bg-[#1b26af] p-2 flex items-center justify-center w-10 h-10"
+                      ><i class="fas fa-phone text-white fa-xl"></i
+                    ></a>
+                    <a
+                      href="#"
+                      class="bg-[#1b26af] p-2 flex items-center justify-center w-10 h-10"
+                      ><i class="fas fa-envelope text-white fa-xl"></i
+                    ></a>
+                    <a
+                      href="#"
+                      class="bg-[#1b26af] p-2 flex items-center justify-center w-10 h-10"
+                      ><i class="fab fa-linkedin-in text-white fa-xl"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="flex justify-between items-center w-full bottom-4 left-0 right-0 px-4 md:hidden"
+      >
+        <div class="flex space-x-2">
+          <span
+            class="dot h-3 w-3 mx-1 bg-[#1b26af] rounded-full inline-block cursor-pointer hover:bg-gray-600"
+            onclick="currentSlide(1)"
+          ></span>
+          <span
+            class="dot h-3 w-3 mx-1 bg-gray-400 rounded-full inline-block cursor-pointer hover:bg-gray-600"
+            onclick="currentSlide(2)"
+          ></span>
+          <span
+            class="dot h-3 w-3 mx-1 bg-gray-400 rounded-full inline-block cursor-pointer hover:bg-gray-600"
+            onclick="currentSlide(3)"
+          ></span>
+          <span
+            class="dot h-3 w-3 mx-1 bg-gray-400 rounded-full inline-block cursor-pointer hover:bg-gray-600"
+            onclick="currentSlide(4)"
+          ></span>
+          <span
+            class="dot h-3 w-3 mx-1 bg-gray-400 rounded-full inline-block cursor-pointer hover:bg-gray-600"
+            onclick="currentSlide(5)"
+          ></span>
+          <span
+            class="dot h-3 w-3 mx-1 bg-gray-400 rounded-full inline-block cursor-pointer hover:bg-gray-600"
+            onclick="currentSlide(6)"
+          ></span>
+          <span
+            class="dot h-3 w-3 mx-1 bg-gray-400 rounded-full inline-block cursor-pointer hover:bg-gray-600"
+            onclick="currentSlide(7)"
+          ></span>
+          <span
+            class="dot h-3 w-3 mx-1 bg-gray-400 rounded-full inline-block cursor-pointer hover:bg-gray-600"
+            onclick="currentSlide(8)"
+          ></span>
+        </div>
+
+        <div class="flex space-x-2">
+          <a
+            class="prev p-5 bg-[#1b26af] text-white font-bold text-lg cursor-pointer hover:bg-black hover:bg-opacity-80"
+            onclick="plusSlides(-1)"
+            >&#10094;</a
+          >
+          <a
+            class="next p-5 bg-[#1b26af] text-white font-bold text-lg cursor-pointer hover:bg-black hover:bg-opacity-80"
+            onclick="plusSlides(1)"
+            >&#10095;</a
+          >
+        </div>
+      </div>
+
+      <!-- Grid for Desktop -->
+      <div
+        class="hidden md:grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6"
+      >
+        <div class="relative rounded-lg overflow-hidden shadow h-80">
+          <img
+            src="images/IMG1.JPG"
+            alt="Profile"
+            class="w-full h-full object-cover"
+          />
+          <div class="absolute bottom-4 left-4 text-white">
+            <h3 class="font-bold text-lg">Name here</h3>
+            <p class="text-sm">Function here</p>
+            <div class="flex gap-2 mt-2">
+              <a
+                href="#"
+                class="bg-[#1b26af] p-2 flex items-center justify-center w-10 h-10"
+                ><i class="fas fa-phone text-white fa-xl"></i
+              ></a>
+              <a
+                href="#"
+                class="bg-[#1b26af] p-2 flex items-center justify-center w-10 h-10"
+                ><i class="fas fa-envelope text-white fa-xl"></i
+              ></a>
+              <a
+                href="#"
+                class="bg-[#1b26af] p-2 flex items-center justify-center w-10 h-10"
+                ><i class="fab fa-linkedin-in text-white fa-xl"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="relative rounded-lg overflow-hidden shadow h-80">
+          <img
+            src="images/IMG2.JPG"
+            alt="Profile"
+            class="w-full h-full object-cover"
+          />
+          <div class="absolute bottom-4 left-4 text-white">
+            <h3 class="font-bold text-lg">Name here</h3>
+            <p class="text-sm">Function here</p>
+            <div class="flex gap-2 mt-2">
+              <a
+                href="#"
+                class="bg-[#1b26af] p-2 flex items-center justify-center w-10 h-10"
+                ><i class="fas fa-phone text-white fa-xl"></i
+              ></a>
+              <a
+                href="#"
+                class="bg-[#1b26af] p-2 flex items-center justify-center w-10 h-10"
+                ><i class="fas fa-envelope text-white fa-xl"></i
+              ></a>
+              <a
+                href="#"
+                class="bg-[#1b26af] p-2 flex items-center justify-center w-10 h-10"
+                ><i class="fab fa-linkedin-in text-white fa-xl"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="relative rounded-lg overflow-hidden shadow h-80">
+          <img
+            src="images/IMG3.JPG"
+            alt="Profile"
+            class="w-full h-full object-cover"
+          />
+          <div class="absolute bottom-4 left-4 text-white">
+            <h3 class="font-bold text-lg">Name here</h3>
+            <p class="text-sm">Function here</p>
+            <div class="flex gap-2 mt-2">
+              <a
+                href="#"
+                class="bg-[#1b26af] p-2 flex items-center justify-center w-10 h-10"
+                ><i class="fas fa-phone text-white fa-xl"></i
+              ></a>
+              <a
+                href="#"
+                class="bg-[#1b26af] p-2 flex items-center justify-center w-10 h-10"
+                ><i class="fas fa-envelope text-white fa-xl"></i
+              ></a>
+              <a
+                href="#"
+                class="bg-[#1b26af] p-2 flex items-center justify-center w-10 h-10"
+                ><i class="fab fa-linkedin-in text-white fa-xl"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="relative rounded-lg overflow-hidden shadow h-80">
+          <img
+            src="images/IMG4.JPG"
+            alt="Profile"
+            class="w-full h-full object-cover"
+          />
+          <div class="absolute bottom-4 left-4 text-white">
+            <h3 class="font-bold text-lg">Name here</h3>
+            <p class="text-sm">Function here</p>
+            <div class="flex gap-2 mt-2">
+              <a
+                href="#"
+                class="bg-[#1b26af] p-2 flex items-center justify-center w-10 h-10"
+                ><i class="fas fa-phone text-white fa-xl"></i
+              ></a>
+              <a
+                href="#"
+                class="bg-[#1b26af] p-2 flex items-center justify-center w-10 h-10"
+                ><i class="fas fa-envelope text-white fa-xl"></i
+              ></a>
+              <a
+                href="#"
+                class="bg-[#1b26af] p-2 flex items-center justify-center w-10 h-10"
+                ><i class="fab fa-linkedin-in text-white fa-xl"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="relative rounded-lg overflow-hidden shadow h-80">
+          <img
+            src="images/IMG5.JPG"
+            alt="Profile"
+            class="w-full h-full object-cover"
+          />
+          <div class="absolute bottom-4 left-4 text-white">
+            <h3 class="font-bold text-lg">Name here</h3>
+            <p class="text-sm">Function here</p>
+            <div class="flex gap-2 mt-2">
+              <a
+                href="#"
+                class="bg-[#1b26af] p-2 flex items-center justify-center w-10 h-10"
+                ><i class="fas fa-phone text-white fa-xl"></i
+              ></a>
+              <a
+                href="#"
+                class="bg-[#1b26af] p-2 flex items-center justify-center w-10 h-10"
+                ><i class="fas fa-envelope text-white fa-xl"></i
+              ></a>
+              <a
+                href="#"
+                class="bg-[#1b26af] p-2 flex items-center justify-center w-10 h-10"
+                ><i class="fab fa-linkedin-in text-white fa-xl"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="relative rounded-lg overflow-hidden shadow h-80">
+          <img
+            src="images/IMG6.JPG"
+            alt="Profile"
+            class="w-full h-full object-cover"
+          />
+          <div class="absolute bottom-4 left-4 text-white">
+            <h3 class="font-bold text-lg">Name here</h3>
+            <p class="text-sm">Function here</p>
+            <div class="flex gap-2 mt-2">
+              <a
+                href="#"
+                class="bg-[#1b26af] p-2 flex items-center justify-center w-10 h-10"
+                ><i class="fas fa-phone text-white fa-xl"></i
+              ></a>
+              <a
+                href="#"
+                class="bg-[#1b26af] p-2 flex items-center justify-center w-10 h-10"
+                ><i class="fas fa-envelope text-white fa-xl"></i
+              ></a>
+              <a
+                href="#"
+                class="bg-[#1b26af] p-2 flex items-center justify-center w-10 h-10"
+                ><i class="fab fa-linkedin-in text-white fa-xl"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="relative rounded-lg overflow-hidden shadow h-80">
+          <img
+            src="images/IMG7.JPG"
+            alt="Profile"
+            class="w-full h-full object-cover"
+          />
+          <div class="absolute bottom-4 left-4 text-white">
+            <h3 class="font-bold text-lg">Name here</h3>
+            <p class="text-sm">Function here</p>
+            <div class="flex gap-2 mt-2">
+              <a
+                href="#"
+                class="bg-[#1b26af] p-2 flex items-center justify-center w-10 h-10"
+                ><i class="fas fa-phone text-white fa-xl"></i
+              ></a>
+              <a
+                href="#"
+                class="bg-[#1b26af] p-2 flex items-center justify-center w-10 h-10"
+                ><i class="fas fa-envelope text-white fa-xl"></i
+              ></a>
+              <a
+                href="#"
+                class="bg-[#1b26af] p-2 flex items-center justify-center w-10 h-10"
+                ><i class="fab fa-linkedin-in text-white fa-xl"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="relative rounded-lg overflow-hidden shadow h-80">
+          <img
+            src="images/IMG8.JPG"
+            alt="Profile"
+            class="w-full h-full object-cover"
+          />
+          <div class="absolute bottom-4 left-4 text-white">
+            <h3 class="font-bold text-lg">Name here</h3>
+            <p class="text-sm">Function here</p>
+            <div class="flex gap-2 mt-2">
+              <a
+                href="#"
+                class="bg-[#1b26af] p-2 flex items-center justify-center w-10 h-10"
+                ><i class="fas fa-phone text-white fa-xl"></i
+              ></a>
+              <a
+                href="#"
+                class="bg-[#1b26af] p-2 flex items-center justify-center w-10 h-10"
+                ><i class="fas fa-envelope text-white fa-xl"></i
+              ></a>
+              <a
+                href="#"
+                class="bg-[#1b26af] p-2 flex items-center justify-center w-10 h-10"
+                ><i class="fab fa-linkedin-in text-white fa-xl"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="relative bg-gray-50 py-16 px-4">
+      <div class="max-w-6xl mx-auto flex flex-col md:flex-row gap-10">
+        <div
+          class="md:w-1/3 md:sticky md:top-32 h-fit w-full max-w-md mx-auto text-center md:text-left"
+        >
+          <h2 class="text-3xl font-bold mb-4 text-left md:text-left">
+            Open posities
+          </h2>
+          <p class="mb-6 text-gray-600 text-left md:text-left">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque
+            laudantium corrupti cumque, veniam.
+          </p>
+
+          <div class="hidden md:block">
+            <button
+              class="bg-[#1b26af] text-white px-6 py-2 rounded hover:bg-blue-700 transition"
+            >
+              Open sollicitatie
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="md:w-2/3 flex flex-col items-center md:items-start space-y-6"
+        >
+          <div
+            class="bg-[#1b26af] text-white p-6 rounded-lg shadow w-full max-w-md md:max-w-none"
+          >
+            <div class="flex justify-between items-center mb-2">
+              <h3 class="text-xl font-bold">Job Title</h3>
+              <span class="bg-white text-blue-700 text-sm px-2 py-1 rounded"
+                >Tag 1</span
+              >
+            </div>
+            <p class="mb-4 text-sm">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <div class="flex gap-6 text-sm mb-4">
+              <span><i class="fas fa-map-marker-alt mr-1"></i> Locatie</span>
+              <span
+                ><i class="fas fa-file-contract mr-1"></i> Contract Type</span
+              >
+            </div>
+            <button
+              class="bg-white text-blue-700 font-semibold px-4 py-2 rounded hover:bg-blue-100"
+            >
+              Naar de vacature
+            </button>
+          </div>
+
+          <div
+            class="bg-[#1b26af] text-white p-6 rounded-lg shadow w-full max-w-md md:max-w-none"
+          >
+            <div class="flex justify-between items-center mb-2">
+              <h3 class="text-xl font-bold">Job Title</h3>
+              <span class="bg-white text-blue-700 text-sm px-2 py-1 rounded"
+                >Tag 1</span
+              >
+            </div>
+            <p class="mb-4 text-sm">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <div class="flex gap-6 text-sm mb-4">
+              <span><i class="fas fa-map-marker-alt mr-1"></i> Locatie</span>
+              <span
+                ><i class="fas fa-file-contract mr-1"></i> Contract Type</span
+              >
+            </div>
+            <button
+              class="bg-white text-blue-700 font-semibold px-4 py-2 rounded hover:bg-blue-100"
+            >
+              Naar de vacature
+            </button>
+          </div>
+          <div
+            class="bg-[#1b26af] text-white p-6 rounded-lg shadow w-full max-w-md md:max-w-none"
+          >
+            <div class="flex justify-between items-center mb-2">
+              <h3 class="text-xl font-bold">Job Title</h3>
+              <span class="bg-white text-blue-700 text-sm px-2 py-1 rounded"
+                >Tag 1</span
+              >
+            </div>
+            <p class="mb-4 text-sm">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <div class="flex gap-6 text-sm mb-4">
+              <span><i class="fas fa-map-marker-alt mr-1"></i> Locatie</span>
+              <span
+                ><i class="fas fa-file-contract mr-1"></i> Contract Type</span
+              >
+            </div>
+            <button
+              class="bg-white text-blue-700 font-semibold px-4 py-2 rounded hover:bg-blue-100"
+            >
+              Naar de vacature
+            </button>
+          </div>
+          <div
+            class="bg-[#1b26af] text-white p-6 rounded-lg shadow w-full max-w-md md:max-w-none"
+          >
+            <div class="flex justify-between items-center mb-2">
+              <h3 class="text-xl font-bold">Job Title</h3>
+              <span class="bg-white text-blue-700 text-sm px-2 py-1 rounded"
+                >Tag 1</span
+              >
+            </div>
+            <p class="mb-4 text-sm">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <div class="flex gap-6 text-sm mb-4">
+              <span><i class="fas fa-map-marker-alt mr-1"></i> Locatie</span>
+              <span
+                ><i class="fas fa-file-contract mr-1"></i> Contract Type</span
+              >
+            </div>
+            <button
+              class="bg-white text-blue-700 font-semibold px-4 py-2 rounded hover:bg-blue-100"
+            >
+              Naar de vacature
+            </button>
+          </div>
+
+          <div class="block md:hidden mt-8">
+            <button
+              class="bg-[#1b26af] text-white px-6 py-2 rounded hover:bg-blue-700 transition mx-auto block"
+            >
+              Open sollicitatie
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/embla-carousel/embla-carousel.umd.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
